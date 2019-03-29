@@ -6,5 +6,5 @@ function closeCookieAlert() {
   // close alert when 'close' button is pressed
   // code goes here
   console.log('cookie alert closed');
-
+  console.log('cookie alert closed');
 }
