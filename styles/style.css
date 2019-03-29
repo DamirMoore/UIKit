@@ -1,0 +1,95 @@
+body {
+    /* padding-right: 3em;
+    padding-left: 3em; */
+    /* overflow-x: hidden; */
+    /* background-color: #7B667B; */
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    /* background-color: #3FA38D; */
+    height: 100%;
+    width: 100%;
+    /* overflow-x: hidden; */
+    padding: 0;
+    margin: 0;
+}
+
+.cookie-alert {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #33BDB5;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 97%;
+}
+
+.cookie-alert2 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #33BDB5;
+    /* background-color: rgba(100, 100, 100, 0.5); */
+    color: #fff;
+    /* position: absolute;
+    top: 0.5em;
+    left: 0; */
+    padding-top: 1.2em;
+    /* padding-bottom: 1em; */
+    width: 100%;
+}
+
+.cookie-alert-close {
+    /* border: solid 1px rgb(221, 133, 51); */
+    border: solid 1px #fff;
+    color: #fff;
+    /* background-color: rgb(221, 133, 51); */
+    background: none;
+    cursor: pointer;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 2em;
+    padding-left: 2em;
+    margin-left: 1em;
+}
+
+.my-card-img {
+    background-color: #33BDB5;
+    width: 600px;
+    height: 400px;
+}
+
+.my-comment-img {
+    background-color: #33BDB5;
+    color: #33BDB5;
+    width: 4em;
+    height: 4em;
+}
+
+.my-comment {
+    width: 70%;
+    /* background-color: #33BDB5; */
+    padding-bottom: 2em;
+    /* border-bottom: 1px solid rgba(100, 100, 100, 0.2); */
+}
+
+.comments-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 5em;
+
+    /* background-color: #33BDB5; */
+}
+
+.hello {
+    color: coral;
+}
