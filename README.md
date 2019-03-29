@@ -4,7 +4,7 @@ UIKit Experimentation
 I modify and add functionality to UIKit.
 
 Changes:
-1. Get rid of all the text-transform:uppercase css rules. Having all uppercase words is usually bad UI practice.
+1. Get rid of all the text-transform:uppercase css rules. Having all uppercase words is usually bad UX design practice.
 
 
 Upcomming Changes:
