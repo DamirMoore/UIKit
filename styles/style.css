@@ -93,3 +93,7 @@ html {
 .hello {
     color: coral;
 }
+
+.img-container {
+    width: 50%;
+}

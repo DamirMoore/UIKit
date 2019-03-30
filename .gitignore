@@ -1,2 +1,5 @@
 node_modules
 .eslintrc.js
+/images
+uikit.min.css
+uikit.rtl.min.css
