@@ -10,5 +10,4 @@ Changes:
 
 Upcomming Changes:
 1. Add more button colors, sizes, and shapes.
-2. Add a full width mega dropdown menu.
-3. Add components that allow you to easily and quickly create dashboards. 
+2. Add components that allow you to easily and quickly create dashboards. 
