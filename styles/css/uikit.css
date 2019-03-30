@@ -2,7 +2,30 @@
 /* ========================================================================
    Component: Base
  ========================================================================== */
-/*
+
+/* Custom Variables */
+:root {
+  --smoothie-red: #CE5667;
+  --mint-green: #00C082;
+  --berry-purple: #7B667B;
+  --lollipop-blue: #33BDB5;
+  --smoothie-red: #CE5667;
+  --smokey-black: #3D3D3D;
+  --facebook-blue: blue;
+  --posiden-green: #3FA38D;
+  --coral: coral;
+
+  --gray-100: rgba(100, 100, 100, 0.1);
+  --gray-200: rgba(100, 100, 100, 0.2);
+  --gray-300: rgba(100, 100, 100, 0.3);
+  --gray-400: rgba(100, 100, 100, 0.4);
+  --gray-500: rgba(100, 100, 100, 0.5);
+  --gray-600: rgba(100, 100, 100, 0.6);
+  --gray-700: rgba(100, 100, 100, 0.7);
+  --gray-800: rgba(100, 100, 100, 0.8);
+}
+
+ /*
  * 1. Set `font-size` to support `rem` units
  *    Not using `font` property because a leading hyphen (e.g. -apple-system) causes the font to break in IE11 and Edge
  * 2. Prevent adjustments of font size after orientation changes in iOS.
@@ -48,6 +71,7 @@ a,
 .uk-link {
   color: #1e87f0;
   text-decoration: none;
+  text-decoration-style: none;
   cursor: pointer;
 }
 a:hover,
@@ -7427,6 +7451,37 @@ iframe.uk-cover {
 .uk-background-secondary {
   background-color: #222;
 }
+.uk-background-smoothie-red {
+  background-color: var(--smoothie-red);
+}
+.uk-background-mint-green {
+  background-color: var(--mint-green);
+}
+.uk-background-berry-purple {
+  background-color: var(--berry-purple);
+}
+.uk-background-lollipop-blue {
+  background-color: var(--lollipop-blue);
+}
+.uk-background-smokey-black {
+  background-color: var(--smokey-black);
+}
+.uk-background-posiden-green {
+  background-color: var(--posiden-green);
+}
+.uk-background-coral {
+  background-color: var(--coral);
+}
+.uk-background-gray-100 {
+  background-color: var(--gray-100);
+}
+.uk-background-gray-200 {
+  background-color: var(--gray-200);
+}
+.uk-background-gray-300 {
+  background-color: var(--gray-300);
+}
+
 /* Size
  ========================================================================== */
 .uk-background-cover,
