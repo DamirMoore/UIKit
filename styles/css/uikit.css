@@ -3829,7 +3829,8 @@ ul.uk-nav-sub {
 .uk-nav-primary > li > a {
   font-size: 1.5rem;
   line-height: 1.5;
-  color: #999;
+  color: var(--smokey-black);
+  /* color: #999; */
 }
 /* Hover + Focus */
 .uk-nav-primary > li > a:hover,
@@ -3893,8 +3894,13 @@ ul.uk-nav-sub {
 /* Container
  ========================================================================== */
 .uk-navbar-container:not(.uk-navbar-transparent) {
-  background: #f8f8f8;
+  /* background-color: #f8f8f8; */
 }
+
+.uk-main-nav-item:hover {
+  opacity: 0.8;
+}
+
 /*
  * Remove pseudo elements created by micro clearfix as precaution (if Container component is used)
  */
@@ -7108,6 +7114,7 @@ ul.uk-nav-sub {
 .uk-text-lowercase {
   text-transform: lowercase !important;
 }
+
 /* Color modifiers
  ========================================================================== */
 .uk-text-muted {
@@ -7128,6 +7135,34 @@ ul.uk-nav-sub {
 .uk-text-danger {
   color: #f0506e !important;
 }
+.uk-text-white {
+  color: #fff !important;
+}
+.uk-text-mint-green {
+  color: var(--mint-green) !important;
+}
+.uk-text-berry-purple {
+  color: var(--berry-purple) !important;
+}
+.uk-text-lollipop-blue {
+  color: var(--lollipop-blue) !important;
+}
+.uk-text-smoothie-red {
+  color: var(--smoothie-red) !important;
+}
+.uk-text-smokey-black {
+  color: var(--smokey-black) !important;
+}
+.uk-text-posiden-green {
+  color: var(--posiden-green) !important;
+}
+.uk-text-coral {
+  color: var(--coral) !important;
+}
+
+
+
+
 /* Background modifier
  ========================================================================== */
 /*
@@ -7472,6 +7507,9 @@ iframe.uk-cover {
 .uk-background-coral {
   background-color: var(--coral);
 }
+.uk-background-white {
+  background-color: #fff;
+}
 .uk-background-gray-100 {
   background-color: var(--gray-100);
 }
@@ -7481,6 +7519,7 @@ iframe.uk-cover {
 .uk-background-gray-300 {
   background-color: var(--gray-300);
 }
+
 
 /* Size
  ========================================================================== */
@@ -10603,7 +10642,8 @@ iframe.uk-cover {
 .uk-card-secondary > :not([class*='uk-card-media']) .uk-close,
 .uk-overlay-primary .uk-close,
 .uk-offcanvas-bar .uk-close {
-  color: rgba(255, 255, 255, 0.5);
+  /* color: rgba(255, 255, 255, 0.5); */
+  color: var(--gray-800);
 }
 .uk-light .uk-close:hover,
 .uk-light .uk-close:focus,
@@ -10627,7 +10667,8 @@ iframe.uk-cover {
 .uk-overlay-primary .uk-close:focus,
 .uk-offcanvas-bar .uk-close:hover,
 .uk-offcanvas-bar .uk-close:focus {
-  color: rgba(255, 255, 255, 0.7);
+  /* color: rgba(255, 255, 255, 0.7); */
+  color: var(--gray-600);
 }
 .uk-light .uk-totop,
 .uk-section-primary:not(.uk-preserve-color) .uk-totop,
@@ -11050,7 +11091,8 @@ iframe.uk-cover {
 .uk-card-secondary > :not([class*='uk-card-media']) .uk-nav-default .uk-nav-sub a,
 .uk-overlay-primary .uk-nav-default .uk-nav-sub a,
 .uk-offcanvas-bar .uk-nav-default .uk-nav-sub a {
-  color: rgba(255, 255, 255, 0.5);
+  /* color: rgba(255, 255, 255, 0.5); */
+  color: var(--smokey-black);
 }
 .uk-light .uk-nav-default .uk-nav-sub a:hover,
 .uk-light .uk-nav-default .uk-nav-sub a:focus,
@@ -11100,7 +11142,8 @@ iframe.uk-cover {
 .uk-card-secondary > :not([class*='uk-card-media']) .uk-nav-primary > li > a,
 .uk-overlay-primary .uk-nav-primary > li > a,
 .uk-offcanvas-bar .uk-nav-primary > li > a {
-  color: rgba(255, 255, 255, 0.5);
+  /* color: rgba(255, 255, 255, 0.5); */
+  color: var(--smokey-black);
 }
 .uk-light .uk-nav-primary > li > a:hover,
 .uk-light .uk-nav-primary > li > a:focus,
@@ -11124,7 +11167,8 @@ iframe.uk-cover {
 .uk-overlay-primary .uk-nav-primary > li > a:focus,
 .uk-offcanvas-bar .uk-nav-primary > li > a:hover,
 .uk-offcanvas-bar .uk-nav-primary > li > a:focus {
-  color: rgba(255, 255, 255, 0.7);
+  /* color: rgba(255, 255, 255, 0.7); */
+  color: var(--gray-700);
 }
 .uk-light .uk-nav-primary > li.uk-active > a,
 .uk-section-primary:not(.uk-preserve-color) .uk-nav-primary > li.uk-active > a,
@@ -11137,7 +11181,8 @@ iframe.uk-cover {
 .uk-card-secondary > :not([class*='uk-card-media']) .uk-nav-primary > li.uk-active > a,
 .uk-overlay-primary .uk-nav-primary > li.uk-active > a,
 .uk-offcanvas-bar .uk-nav-primary > li.uk-active > a {
-  color: #fff;
+  /* color: #fff; */
+  color: var(--smokey-black);
 }
 .uk-light .uk-nav-primary .uk-nav-header,
 .uk-section-primary:not(.uk-preserve-color) .uk-nav-primary .uk-nav-header,
@@ -11150,7 +11195,8 @@ iframe.uk-cover {
 .uk-card-secondary > :not([class*='uk-card-media']) .uk-nav-primary .uk-nav-header,
 .uk-overlay-primary .uk-nav-primary .uk-nav-header,
 .uk-offcanvas-bar .uk-nav-primary .uk-nav-header {
-  color: #fff;
+  /* color: #fff; */
+  color: var(--gray-500);
 }
 .uk-light .uk-nav-primary .uk-nav-divider,
 .uk-section-primary:not(.uk-preserve-color) .uk-nav-primary .uk-nav-divider,
@@ -11163,7 +11209,8 @@ iframe.uk-cover {
 .uk-card-secondary > :not([class*='uk-card-media']) .uk-nav-primary .uk-nav-divider,
 .uk-overlay-primary .uk-nav-primary .uk-nav-divider,
 .uk-offcanvas-bar .uk-nav-primary .uk-nav-divider {
-  border-top-color: rgba(255, 255, 255, 0.2);
+  /* border-top-color: rgba(255, 255, 255, 0.2); */
+  border-top-color: var(--gray-300);
 }
 .uk-light .uk-nav-primary .uk-nav-sub a,
 .uk-section-primary:not(.uk-preserve-color) .uk-nav-primary .uk-nav-sub a,
@@ -11176,7 +11223,8 @@ iframe.uk-cover {
 .uk-card-secondary > :not([class*='uk-card-media']) .uk-nav-primary .uk-nav-sub a,
 .uk-overlay-primary .uk-nav-primary .uk-nav-sub a,
 .uk-offcanvas-bar .uk-nav-primary .uk-nav-sub a {
-  color: rgba(255, 255, 255, 0.5);
+  /* color: rgba(255, 255, 255, 0.5); */
+  color: var(--smokey-black);
 }
 .uk-light .uk-nav-primary .uk-nav-sub a:hover,
 .uk-light .uk-nav-primary .uk-nav-sub a:focus,
@@ -11200,7 +11248,8 @@ iframe.uk-cover {
 .uk-overlay-primary .uk-nav-primary .uk-nav-sub a:focus,
 .uk-offcanvas-bar .uk-nav-primary .uk-nav-sub a:hover,
 .uk-offcanvas-bar .uk-nav-primary .uk-nav-sub a:focus {
-  color: rgba(255, 255, 255, 0.7);
+  /* color: rgba(255, 255, 255, 0.7); */
+  color: var(--gray-700);
 }
 .uk-light .uk-nav-primary .uk-nav-sub li.uk-active > a,
 .uk-section-primary:not(.uk-preserve-color) .uk-nav-primary .uk-nav-sub li.uk-active > a,
